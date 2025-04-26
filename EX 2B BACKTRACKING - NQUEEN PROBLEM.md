@@ -9,7 +9,7 @@ To solve the N-Queen problem using backtracking, which places N queens on an N*N
 2. For each row in the current column, check if placing a queen is safe (i.e., no queens threaten each other).
 3. If the placement is safe, place the queen and move to the next column recursively.
 4. If a valid solution is found (all queens placed), return True; otherwise, backtrack by removing the queen and trying the next row.
-5.If all queens are placed successfully, print the board; if not, print "Solution does not exist."  
+5. If all queens are placed successfully, print the board; if not, print "Solution does not exist."  
 
 ## Program:
 ```
